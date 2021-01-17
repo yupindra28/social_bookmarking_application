@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'social_bookmarking_application.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'django_social_bookmarking_app_db'),
+        'NAME': os.path.join(BASE_DIR, 'django_social_bookmarking_app_DB'),
     }
 }
 
